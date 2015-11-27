@@ -157,4 +157,22 @@
          </run>
       </application>
    	</extension>
+   	
+   	<extension
+         point="org.eclipse.core.contenttype.contentTypes">
+      <content-type
+            base-type="org.eclipse.jdt.junit.JUnitResult"
+            file-extensions="xml"
+            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            name="RedDeer configuration file"
+            priority="high">
+         <describer
+               class="org.eclipse.core.runtime.content.XMLRootElementContentDescriber2">
+            <parameter
+                  name="element"
+                  value="{http://www.jboss.org/NS/Req}testrun">
+            </parameter>
+         </describer>
+      </content-type>
+   </extension>   
 </plugin>
