@@ -5,7 +5,7 @@
 	elementFormDefault="qualified">
 
 	<!-- Root element -->
-	<xs:element name="testrun" type="rd:testrunType">
+	<xs:element name="reddeer" type="rd:testrunType">
 		<!-- Unique requirement 'name' attribute restriction -->
 		<xs:unique name="uniqueReqName">
 			<xs:selector xpath="*/*" />

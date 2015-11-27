@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testrun 
+<reddeer 
 	xmlns="http://www.jboss.org/NS/Req" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:java="http://www.jboss.org/NS/JavaReq"
@@ -20,4 +20,4 @@
 			<java:runtime>/home/java</java:runtime>
 		</java:java-requirement>
 	</requirements>
-</testrun>
+</reddeer>

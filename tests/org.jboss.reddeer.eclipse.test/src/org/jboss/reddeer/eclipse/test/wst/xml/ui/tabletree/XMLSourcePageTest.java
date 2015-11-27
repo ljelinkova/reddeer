@@ -70,7 +70,7 @@ public static final File ZIP_FILE = new File(Activator.getTestResourcesLocation(
 		XMLMultiPageEditor editor = new XMLMultiPageEditor(NAMESPACES_FILE_NAME);
 		XMLSourcePage page = editor.getSourcePage();
 		
-		String result = page.evaluateXPath("/:testrun/:requirements/server:server-requirement/@name");
+		String result = page.evaluateXPath("/:reddeer/:requirements/server:server-requirement/@name");
 		assertThat(result, is("Tomcat7"));
 	}
 }
